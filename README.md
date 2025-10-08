@@ -43,8 +43,17 @@ Developed by: RegisterNumber:*/
 **Output:**
 
 **RTL**
+ADDITION
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/61573d8e-9722-46e0-bf4a-c647d2d94749" />
+SUBRACTION
+<img width="1918" height="1078" alt="SUBB" src="https://github.com/user-attachments/assets/8cce2344-b6c6-4546-8118-027efbecdfc8" />
+
 
 **Timing Diagram**
+ADDITION
+<img width="1903" height="1025" alt="FLOW 2" src="https://github.com/user-attachments/assets/a222293c-02a6-45ec-99c8-0610a7956473" />
+SUBRATION
+<img width="1918" height="1078" alt="FLOW2" src="https://github.com/user-attachments/assets/b06da8c6-43b3-4e43-a416-05f292d0d93c" />
 
 **Result:**
 
