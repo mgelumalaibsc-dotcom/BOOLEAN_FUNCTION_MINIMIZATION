@@ -35,25 +35,49 @@ Hardware – PCs, Cyclone II , USB flasher
 
 /* Program to implement the given logic function and to verify its operations in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:*/
+i)
+module funct1(a,b,c,d,f1);
 
+input a,b,c,d;
+
+output f1;
+
+assign f1=((~b & ~d)|(~a & b & d)|(a & b & ~c));
+
+endmodule
+
+ii)
+module funct2(w,x,y,z,f2);
+
+input w,x,y,z;
+
+output f2;
+
+assign f2=((~y & z)|( w & y )|(x & y));
+
+endmodule
 
 **RTL realization**
 
-**Output:**
+F1:
 
-**RTL**
-ADDITION
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/61573d8e-9722-46e0-bf4a-c647d2d94749" />
-SUBRACTION
-<img width="1918" height="1078" alt="SUBB" src="https://github.com/user-attachments/assets/8cce2344-b6c6-4546-8118-027efbecdfc8" />
+<img width="903" height="473" alt="image" src="https://github.com/user-attachments/assets/7619ccd7-801e-42a3-b107-65514915e411" />
+
+F2:
+
+<img width="965" height="526" alt="image" src="https://github.com/user-attachments/assets/44e579c2-a461-41ad-a03c-c192c93f6564" />
 
 
 **Timing Diagram**
-ADDITION
-<img width="1903" height="1025" alt="FLOW 2" src="https://github.com/user-attachments/assets/a222293c-02a6-45ec-99c8-0610a7956473" />
-SUBRATION
-<img width="1918" height="1078" alt="FLOW2" src="https://github.com/user-attachments/assets/b06da8c6-43b3-4e43-a416-05f292d0d93c" />
+
+F1:
+
+<img width="1919" height="1032" alt="image" src="https://github.com/user-attachments/assets/85ba0904-91ac-4a71-bce8-6635d5ff2679" />
+
+
+F2:
+
+<img width="1919" height="1033" alt="image" src="https://github.com/user-attachments/assets/78492061-6e4f-4016-88a0-bd636c888486" />
 
 **Result:**
 
